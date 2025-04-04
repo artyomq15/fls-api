@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export async function POST(request: Request) {
   try {
     const text = await request.text();
